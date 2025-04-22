@@ -66,6 +66,7 @@ Artifact:
       CommandType: RunShellScript
       SourceImageId:
         m-t4nf8rbos38ruvqw44z0
+      SystemDiskSize: 80
       CommandContent: |-
         git clone https://www.modelscope.cn/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B.git /root/llm-model/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
         docker pull compute-nest-registry.cn-hangzhou.cr.aliyuncs.com/1563457855438522/vllm:v0.8.2-sglang0.4.3.post2-pytorch2.6.0-cuda12.4-ubuntu22.04-ray2.44.1-erdma
